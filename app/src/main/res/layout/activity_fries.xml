@@ -90,8 +90,8 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_marginBottom="8dp"
-        android:background="#E4E9EF"
         android:layout_marginRight="8dp"
+        android:background="#E4E9EF"
         android:onClick="backButton"
         android:padding="2dp"
         android:src="@drawable/back" />
