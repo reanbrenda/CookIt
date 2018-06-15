@@ -19,6 +19,7 @@ public class RecipeActivity extends AppCompatActivity {
 
     public void backButton(View v) {
         Intent homeIntent = new Intent(RecipeActivity.this, HomeActivity.class);
+        homeIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(homeIntent);
         finish();
     }

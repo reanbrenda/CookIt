@@ -15,7 +15,7 @@ public class RiceActivity extends AppCompatActivity {
 
     public void backButton(View view) {
         Intent homeIntent = new Intent(RiceActivity.this, HomeActivity.class);
-
+        homeIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(homeIntent);
         finish();
 
